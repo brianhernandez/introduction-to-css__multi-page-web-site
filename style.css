@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+
+body {
+	font-family: "Raleway", "Helvetica Neue", "Helvetica", "Open Sans", sans-serif;
+	color: #EFEFEF;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover,
+a:focus {
+	font-weight: 700;
+}
+
+html {
+	background: 
+		linear-gradient(
+			rgba(255, 255, 255, 0.2),
+			rgba(255, 255, 255, 0.2)
+			),
+		url(space_mountain.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+}
+
+header p {
+	max-width: 800px;
+	font-size: 1.7em;
+	margin: auto;
+	font-style: italic;
+}
+h1,
+h2 {
+	text-shadow: 
+		-1px -1px 0 #fff,  
+	    1px -1px 0 #fff,
+	    -1px 1px 0 #fff,
+	     1px 1px 0 #fff;
+}
+h1 {
+	color: #0497D6;
+	font-size: 2rem;
+}
+h2 {
+	color: #ed2561;
+	font-size: 2rem;
+
+}
+
+header span {
+	display: block;
+	margin-top: 1em;
+}
+
+.navigation {
+	margin-top: 2em;
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+	
+}
+
+
+.navigation a {
+	display: inline-block;
+	padding: 20px 180px;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+	background: 
+		linear-gradient(
+			to bottom right, 
+			rgba(139,125,239, 0.65), rgba(59,153,239, .65)
+		);
+}
+
+
